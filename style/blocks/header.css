@@ -1,0 +1,40 @@
+.header {
+  padding-top: 27px;
+  
+}
+.container.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+.header__col {
+  display: inline-flex;
+  align-items: center;
+}
+
+.header__col--right {
+  display: inline-flex;
+  align-items: flex-end;
+}
+
+
+.menu {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.contacts {
+  font-style: normal;
+  color: #fff;
+}
+
+.contacts__phone {
+  font-size: 26px;
+}
+
+.contacts__info {
+  font-size: 13px;
+  text-align: end;
+}
