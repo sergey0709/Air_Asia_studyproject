@@ -1,0 +1,78 @@
+.footer-container {
+  margin-top: auto;
+}
+
+footer {
+  margin-bottom: 57.36px;
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-container--section {
+  min-height: 92.64px;
+  padding-top: 16px;
+}
+.footer__col {
+  display: flex;
+  align-items: center;
+}
+
+.footer__col--align--right {
+  align-items: flex-end;
+}
+
+.footer-container__content {
+  margin-top: 52px;
+  border-top: 4px solid rgba(255, 255, 255, 0.1);
+}
+
+.call__info {
+  color: #9A9A9A;
+  font-size: 11px;
+  text-align: right;
+}
+
+
+.nets__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.nets {
+  margin-right: 74px;
+}
+
+.nets__item:last-child {
+  margin-right: 0;
+}
+
+.button__link {
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+  background: center center no-repeat;
+}
+
+.nets__item--tg .button__link {
+  background: url(../../img/sprite.png) -122px -10px;
+} 
+
+.nets__item--vk .button__link {
+  background: url(../../img/sprite.png) -178px -10px;
+} 
+
+.nets__item--fb .button__link {
+  background: url(../../img/sprite.png) -10px -10px;
+} 
+
+.nets__item--ins .button__link {
+  background: url(../../img/sprite.png) -66px -10px;
+} 
+
